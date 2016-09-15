@@ -6,7 +6,7 @@
 		"laravel/socialite": "^2.0"
 	},
 	"autoload": {
-		"psr-0": {
+		"psr-4": {
 			"RingoProject\\Socialite\\": "src/"
 		}
 	}
