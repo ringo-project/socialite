@@ -9,5 +9,8 @@
 		"psr-4": {
 			"RingoProject\\Socialite\\": "src/"
 		}
-	}
+	},
+	"include-path": [
+		"src/",
+	]
 }
