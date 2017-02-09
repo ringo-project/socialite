@@ -15,12 +15,12 @@ class LineProvider extends AbstractProvider implements ProviderInterface
 
 	protected function getTokenUrl()
 	{
-		return 'https://api.line.me/v1/oauth/accessToken';
+		return 'https://api.line.me/v2/oauth/accessToken';
 	}
 
 	protected function getUserByToken($token)
 	{
-		$response = $this->getHttpClient()->get('https://api.line.me/v1/profile', [
+		$response = $this->getHttpClient()->get('https://api.line.me/v2/profile', [
 			'headers' => [
 				'X-Line-ChannelToken' => $token,
 			],
