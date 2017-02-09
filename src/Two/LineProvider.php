@@ -32,7 +32,7 @@ class LineProvider extends AbstractProvider implements ProviderInterface
 	protected function mapUserToObject(array $user)
 	{
 		return (new User())->setRaw($user)->map([
-			'id'     => $user['mid'],
+			'id'     => $user['userId'],
 			'name'   => $user['displayName'],
 			'avatar' => $user['pictureUrl'],
 		]);
