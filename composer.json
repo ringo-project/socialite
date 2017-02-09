@@ -3,7 +3,7 @@
 	"description": "laravel/socialite拡張",
 	"license": "MIT",
 	"require": {
-		"laravel/socialite": "^2.0"
+		"laravel/socialite": "^3.0"
 	},
 	"autoload": {
 		"psr-4": {
